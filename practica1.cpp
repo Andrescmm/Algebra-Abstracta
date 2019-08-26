@@ -15,10 +15,10 @@ int main(){
     //cout<<mensaje<<endl;
     cout<<"Ingresar "<<mensaje.size()<<" numeros diferentes"<<endl;
     string pos[36];
-    
+    int a;
     for(int i=0;i<mensaje.size();i++){
-        
-        
+        cin>>a;
+        pos[i]=to_string(a);
+        cout<<pos[i]<<endl;
     }
     
-    cout<<pos<<endl<<pos.size()<<endl;
