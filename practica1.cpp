@@ -1,3 +1,4 @@
+\\Andres Cusirramos Marquez Mares      Algebra Abstracta
 #include<iostream>
 #include <string>
 
