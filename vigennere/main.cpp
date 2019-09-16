@@ -1,8 +1,6 @@
-
 #include<iostream>
 #include<string>
-#include<ctime>
-#include<cmath>
+#include <fstream>
 #include "Vigennere.h"
 using namespace std ;
 
@@ -10,11 +8,12 @@ using namespace std ;
 
 
 int main (){
-    string code="";
-    string mensaje="";
-    string clave="";
-    cout<<"Ingresa un mensaje"<<endl;
-    getline(cin,mensaje);
+    string code;
+    string mensaje;
+    string clave;
+    ifstream entrada("mensaje.txt");
+    //cout<<"Ingresa un mensaje"<<endl;
+    getline(entrada,mensaje);
     Vigennere a (mensaje.length());
     a.Encriptado(mensaje);
     cout<<"Ingresar el texto cifrado"<<endl;
@@ -28,7 +27,6 @@ int main (){
 
     return 0;
 }
-
 
 
 
