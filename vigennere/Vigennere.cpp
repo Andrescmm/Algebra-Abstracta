@@ -1,4 +1,5 @@
 #include "Vigennere.h"
+#include "Funciones Matematicas.h"
 #include<iostream>
 #include<string>
 #include<ctime>
@@ -13,7 +14,8 @@ Vigennere::Vigennere(int tam){
     int  aleatorio, Desde=0, top=alfa.length();
 
     for(int i=0;i<tam;i++){
-        aleatorio = rand()%(top-Desde+1)+Desde;
+        aleatorio= funcionM(rand(),(top-Desde+1))+Desde;
+        //aleatorio = rand()%(top-Desde+1)+Desde;
         clave+=(alfa.at(aleatorio));
     }
     cout<<clave<<endl;
