@@ -17,13 +17,7 @@ public:
     Vigennere(string clave);
     void Encriptado(string mensaje);
     void Desencriptado(string mensaje);
-
-    int funcionM (int x, int y){
-        if(x>=0)return x-(x/y)*y;
-        return x-((x/y)-1)*y;
-    }
-
-    virtual ~Vigennere();
+    ~Vigennere();
 
 };
 
