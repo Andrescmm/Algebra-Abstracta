@@ -22,9 +22,6 @@ int main (){
     getline(cin,clave);
     Vigennere b(clave);
     b.Desencriptado(code);
-
-
-
     return 0;
 }
 
