@@ -15,8 +15,8 @@ public:
     Vigennere();
     Vigennere(int tam);
     Vigennere(string clave);
-    void Encriptado(string mensaje);
-    void Desencriptado(string mensaje);
+    string  Encriptado(string mensaje);
+    string Desencriptado(string mensaje);
     ~Vigennere();
 
 };
