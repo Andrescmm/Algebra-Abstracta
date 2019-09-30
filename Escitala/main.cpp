@@ -17,14 +17,18 @@ int main()
     cin>>filas;
     int columnas;
     cin>>columnas;
-    Escitala a(filas,columnas);
-    string message= a.Encriptado(text);
-    cout<<message<<endl;
-    /*cout<<"Ingresar filas y columnas "<<endl;
-    cin>>row;
-    cin>>column;*/
-    Escitala b(filas,columnas);
-    b.Descifrado(message);
-
+    if (filas*columnas<text.length()){
+        cout<<"Las colummas y las filas no son suficientes"<<endl;
+    }
+    else {
+        Escitala a(filas, columnas);
+        string message = a.Encriptado(text);
+        cout << message << endl;
+        /*cout<<"Ingresar filas y columnas "<<endl;
+        cin>>row;
+        cin>>column;*/
+        Escitala b(filas, columnas);
+        b.Descifrado(message);
+    }
     return 0;
 }
