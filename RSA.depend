@@ -1,0 +1,43 @@
+# depslib dependency file v1.0
+1573500776 source:c:\users\andres\documents\rsa\main.cpp
+	<iostream>
+	<string.h>
+	<NTL/ZZ.h>
+	"RSA.h"
+
+1573496312 c:\users\andres\documents\rsa\include\rsa.h
+	<iostream>
+	<string.h>
+	<NTL/ZZ.h>
+
+1573501993 source:c:\users\andres\documents\rsa\src\rsa.cpp
+	"RSA.h"
+	<iostream>
+	<string.h>
+	<vector>
+	<bits/stdc++.h>
+	<NTL/ZZ.h>
+	"Formulas.h"
+
+1573499632 c:\users\andres\documents\rsa\include\formulas.h
+	<iostream>
+	<string>
+	<ctime>
+	<vector>
+	<cstdlib>
+	<NTL/ZZ.h>
+	"Vernam.h"
+
+1573492833 c:\users\andres\documents\rsa\include\vernam.h
+	<iostream>
+	<ctime>
+	<iostream>
+	<ctime>
+	<bitset>
+	<vector>
+	<cstdlib>
+	<string>
+	<math.h>
+	<cstring>
+	<stdlib.h>
+
